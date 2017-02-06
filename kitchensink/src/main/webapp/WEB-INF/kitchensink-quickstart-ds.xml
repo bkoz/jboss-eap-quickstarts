@@ -38,7 +38,7 @@
                 <connection-url>jdbc:mysql://mysql:3306/sampledb</connection-url>  
                 <driver>mysql</driver>  
                 <security>  
-			<user-name>userC15</user-name>  
+			<user-name>${env.MYSQL_USER}</user-name>  
 			<password>iHOJP5ymdrlcefUT</password>  
                 </security>  
            </datasource>  
