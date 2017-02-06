@@ -38,8 +38,8 @@
                 <connection-url>jdbc:mysql://mysql:3306/sampledb</connection-url>  
                 <driver>mysql</driver>  
                 <security>  
-			<user-name>${MYSQL_USER}</user-name>  
-			<password>${MYSQL_PASSWORD}</password>  
+			<user-name>userC15</user-name>  
+			<password>iHOJP5ymdrlcefUT</password>  
                 </security>  
            </datasource>  
 </datasources>
