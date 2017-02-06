@@ -34,5 +34,13 @@
             <password>sa</password>
         </security>
     </datasource>
+<datasource jndi-name="java:jboss/datasources/MysqlDS" pool-name="kitchsink-quickstart" enabled="true" use-java-context="true">  
+                <connection-url>jdbc:mysql://mysql:3306/mysql</connection-url>  
+                <driver>mysql</driver>  
+                <security>  
+                 <user-name>admin</user-name>  
+                 <password>changeme</password>  
+                </security>  
+           </datasource>  
 </datasources>
 
